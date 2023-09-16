@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  -webkit-font-smoothing: antialiased;
+}
+.roadmap{
+  background-image: linear-gradient(-46deg, #0826ca 25%, #0070d9 66%, #14d0ff 130%);
+}
+
+.btn{
+  transition: all 900ms cubic-bezier(0.445, 0.5, 0.55, 0.95) !important;
+
+
+}
+
+
+
+
+@keyframes open-menu {
+  0% {
+    height: 1px;
+}
+100% {
+    height: 268px;
+}
+}
+
+
+.dot {
+ 
+  width: 20px;
+  height: 20px;
+  display: block;
+  border-radius: 50%;
+}
